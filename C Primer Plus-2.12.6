@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void)
+{
+	int toes;
+	int a;
+	int b;
+	
+	toes=10;
+	a=2*toes;//*数学表达式不能全部直接应用到C语言：2n改成2*n 
+	          [Error] invalid suffix "toes" on integer constant*
+	b=toes*toes;
+	
+	printf("toes is %d.\n",toes);
+	printf("2toes is %d.\n",a);
+	printf("toes2 is %d.\n",b);
+	
+	return 0;	
+} 
